@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 
+    <meta charset="UTF-8">
+    
     <title>Worldwide Zemek</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -10,40 +12,47 @@
 
 <body>
 
-    <section>
-        <header id="header">Matthew D. Zemek</header>
+    <section class="headSection">
+        <div id="headerContent">
+            <header id="header">Matthew D. Zemek</header>
 
-        <a class="contactTab" href="contact.html">Contact</h2>
-
-        <a class="portfolioTab" href="portfolio.html">Portfolio</h2>
-
-        <a class="indexTab" href="index.html">About</h2>
+            <a class="contactTab" href="contact.html">Contact</a>
+            <a class="portfolioTab" href="portfolio.html">Portfolio</a>
+            <a class="indexTab" href="index.html">About</a>
+        </div>
         
-        </section>
+    </section>
 
-    <section>
+    <hr>
 
-        white box container
+    <section id="contentContainer">
 
-            Contact text
+        <h2 class="contentHeader">Contact</h2>
+        
+        <hr id="line2">
 
-            line
+        <br>
 
-            Name text
-            name entry
+        <h3>Name</h3>
+     
+        <textarea class="smallTextBox" name="smallTextBox"></textarea>      
+        <br>
+        <br>
 
-            email text
-            email entry
+        <h3>Email</h3>
+        <textarea class="smallTextBox" name="smallTextBox"></textarea>
+        <br> 
+        <br>
+        
+        <h3>Message</h3>
+        <textarea class="largeTextBox" name="largeTextBox"></textarea>
 
-            message text
-            message entry
-
-            submit button
+        <h5>Submit</h5>
 
     </section>
 
     <footer>
-
-
+        <p>Copyright ©</p>
     </footer>
+    
 </body>
