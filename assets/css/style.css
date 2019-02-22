@@ -44,7 +44,7 @@ header {
  }
 
 .indexTab, .portfolioTab {
-    border-right: grey 1px solid;
+    border-right: lightgrey 1px solid;
 }
 
 hr {
@@ -62,6 +62,7 @@ hr {
     padding: 40px;
     background: white;
     margin-top: 40px;
+    border: #dddddd 1px solid;
 }
 
 .contentHeader {
@@ -92,7 +93,7 @@ footer {
     padding-top: 40px;
     background: #666666;
     text-align: center;
-    font: white;   
+    color: #ffffff;   
 }
 
 h3 {
@@ -132,7 +133,7 @@ h5 {
 }
 
 .blankProject {
-    visibility: hidden;
+    display: none;
 }
 
 .placeholder {
@@ -150,6 +151,7 @@ h4 {
     position: absolute;
     top: 66%;
     background: #4aaaa5;
+    color: #ffffff;
     width: 100%;
     padding: 10px;
     text-align: center;
